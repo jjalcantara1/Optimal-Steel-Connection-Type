@@ -69,5 +69,5 @@ results = model.evaluate(
 )
 print("Test Results:", results)
 
-model.save("multi_task_nn.h5")
+model.save("multi_task_nn.keras")  
 print("✅ Model and scaler saved (multi_task_nn.h5, scaler.pkl)")
